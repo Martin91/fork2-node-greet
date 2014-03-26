@@ -2,7 +2,7 @@
 
 // require folders as modules
 // http://nodejs.org/api/modules.html#modules_folders_as_modules
-greet = require('greet');
+greet = require('../lib/greet');
 var parseArgs = require('minimist');
 
 var argv = parseArgs(process.argv);
